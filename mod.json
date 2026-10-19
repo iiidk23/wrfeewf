@@ -1,0 +1,21 @@
+{
+  "geode": "5.0.0",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081",
+    "mac": "2.2081"
+  },
+  "id": "user.dynamic-buffer",
+  "name": "Dynamic Input Buffer",
+  "version": "v1.0.0",
+  "developer": "user",
+  "description": "Input buffer with F6 mode switching (Off / +2 / +4 / +8 / +16 ticks) and a live overlay.",
+  "settings": {
+    "cycle-key": {
+      "type": "keybind",
+      "name": "Cycle Mode",
+      "description": "Switches between Off, +2, +4, +8 and +16 ticks.",
+      "default": "F6"
+    }
+  }
+}
